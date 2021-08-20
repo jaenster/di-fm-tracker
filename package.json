@@ -1,0 +1,25 @@
+{
+  "name": "di-fm-tracker",
+  "version": "0.0.1",
+  "description": "simple script to keep track of whats being played at di.fm",
+  "main": "bin/index.js",
+  "types": "bin/index.d.ts",
+  "scripts": {
+    "start":"node -r ts-node/register src/index.ts"
+  },
+  "files": [
+    "/bin"
+  ],
+  "keywords": [],
+  "author": "Jaenster",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.7.4",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "micro-observer": "^0.0.20"
+  }
+}
