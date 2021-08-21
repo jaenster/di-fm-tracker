@@ -5,7 +5,8 @@
   "main": "bin/index.js",
   "types": "bin/index.d.ts",
   "scripts": {
-    "start":"node -r ts-node/register src/index.ts"
+    "start":"node -r ts-node/register src/index.ts",
+    "channel": "node -r ts-node/register src/list.ts"
   },
   "files": [
     "/bin"
